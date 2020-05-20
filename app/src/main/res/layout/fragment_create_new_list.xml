@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:clickable="true"
+    tools:context=".CreateNewList">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="283dp"
+        android:layout_height="106dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/white"
+        android:clickable="true">
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="259dp"
+            android:layout_height="30dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:hint="Novi popis"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.25"></EditText>
+
+        <Button
+            android:id="@+id/create_button"
+            style="@android:style/Widget.Material.Light.Button"
+            android:layout_width="116dp"
+            android:layout_height="43dp"
+            android:background="@android:color/white"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="STVORI"
+            android:textColor="@android:color/holo_blue_dark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.988"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.984" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/btn_dialog" />
+
+
+</RelativeLayout>

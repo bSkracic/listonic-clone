@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Pokaži cijene"
+        android:id="@+id/show_price" />
+    <item
+        android:title="Pokaži ukupni trošak"
+        android:id="@+id/show_price_sum" />
+
+</menu>
